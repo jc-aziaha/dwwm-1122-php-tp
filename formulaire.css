@@ -1,0 +1,56 @@
+/* Mini reset */
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --light: #c0c0c09d;
+    --blue: blue;
+}
+
+.app
+{
+    margin: 1rem 5rem;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+
+fieldset 
+{
+    background-color: var(--light);
+    padding: 1rem;
+}
+
+fieldset legend
+{
+    color: var(--blue);
+}
+
+
+
+/* -------Specifi----------c */
+
+header
+{
+    text-align: center;
+}
+
+fieldset div 
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+}
+
+.submit-container input
+{
+    margin-top: 1rem;
+    padding: .5rem;
+    border-radius: .3rem;
+}
+
+
